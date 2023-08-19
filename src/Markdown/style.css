@@ -1,0 +1,71 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}.center-div{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  
+}
+.left-side{
+    width: 32%;
+    height: 80%;
+    
+}
+.right-side{
+    padding: 0 0 0 20px;
+    gap: 20px;
+    height: 100%;
+    width: 32%;
+    height: 80%;
+    background-color: #c6cbcd;
+}
+img{
+    width: 65%;
+    height: 250px;
+}
+h1,h2,h3,h4{
+    margin: 0px;
+    color: darkslategray;
+}
+
+ pre{
+       background-color: #0f0404;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    width: fit-content;
+    color: yellow;
+    padding: 15px 15px 0 0;
+}
+code{
+    margin-left: 10px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+p{
+    color: lightslategray;
+}
+
+/* 
+# Markdown preview
+# This is header 1
+## This is header 2
+### This is header 3
+
+
+```
+this is some code
+
+```
+![](https://images.unsplash.com/photo-1600354587397-681c16c184bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80)
+
+This is some image
+
+- list 1
+- list 2
+- List 3 */
